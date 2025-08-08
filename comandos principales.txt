@@ -1,0 +1,91 @@
+comandos principales:
+
+cd (URL de la carpeta que se quiere acceder)
+
+git init = para inicializar
+
+crear usuario en github
+git config user.name "todocodeacademy"    para conectar el repositorio usuario de github
+git config user.name "correo electrónico"
+
+para que reconozca a que repositorio pertenece
+git remote add origin "URL del repositorio creado en github"
+
+para pasar un archivo de un a otro
+ git status ver estado
+los archivos no agregados aparecerán de color rojo
+
+
+git add "nombre del archivo que se desea agregar"
+
+git commit -m "mensaje de confiracion"
+
+
+para pasar el archivo
+git push -u origin master (nombre de la rama)
+ 
+aparecerá una ventana para validad cuenta, debe de autorizar
+
+
+git pull y git clone (tiene que ser publico)
+
+clone para clonar todo el repositorio
+se abre el repositorio
+git clone (URL del repositorio)
+
+para clonar solo algo especifico pull traer algo y dejarlo en tu compu
+abrir repositorio
+git  pull origin (la rama con la que se esta queriengo descargar archivo) master
+
+
+
+crear ramas o branches
+se abre repositorio
+git Branch (le dira que rama esta)
+crear rama
+git Branch (nombre de la nueva rama)
+
+git Branch para asegurarse de que si existe la otra rama
+para editar el nombre
+git granch -m (nombre actual de la rama, nombre nuevo)
+cambiar de una rama a otra
+git checkout (nombre de la rama a la que ira)
+borrar rama
+git Branch -d (NOMBRE DE LA RAMA A ELIMINAR)
+para eliminar no debe estar dentro de la rama
+
+subir archivos a nueva rama
+si no tiene una rama nueva créela
+ingresar a la rama a la que desea subir archivos
+touch "(nombre del archivo).txt" (.txt es tipo de arhivo)
+
+comitiar aceptar la agregación de los nuevos archivos
+git add .
+git commit -m "mensaje de aceptacion"
+
+
+para dar un estado de los archivos de dos ramas
+git diff (rama 1) (rama2)
+tiene que ver el orden
+ 
+unificar dos ramas para que ambas ramas tengas los mismos archivos
+git marge (para valiad esto debe estar ubicado en la rama que recibirá la actualizacion)
+git marge rama2 rama1
+
+git add. git commit "cambios"
+
+
+access token
+
+en el repositorio creado en
+
+git config user.passwoord
+
+
+git remote add origin URL repositorio
+
+git add.
+
+git commit -m
+
+git push -u origin
